@@ -1,0 +1,35 @@
+/* Estilos para el contenedor */
+.container {
+        /* Estilos para centrar verticalmente */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Esto asegura que el contenedor ocupe toda la altura de la pantalla */
+}
+/* Estilos para el cuerpo del formulario */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #e2e2e2;
+
+}
+
+/* Estilos para los títulos */
+h3 {
+    margin-top: 20px;
+}
+
+/* Estilos para los inputs */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para el resultado */
+#resultado {
+    font-weight: bold;
+    color: green;
+}
